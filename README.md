@@ -19,7 +19,7 @@ Customer Churn Analysis is a Machine Learning project that predicts whether a cu
 - Joblib
 
 ## Project Structure
-
+```
 Customer-Churn-Analysis/
 │── app.py
 │── Untitled2.ipynb
@@ -28,7 +28,7 @@ Customer-Churn-Analysis/
 │── requirements.txt
 │── WA_Fn-UseC_-Telco-Customer-Churn.csv
 │── README.md
-
+```
 
 ## Dataset
 The project uses the *WA_Fn-UseC_-Telco-Customer-Churn.csv* dataset to train and evaluate the machine learning model.
