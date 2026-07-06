@@ -3,6 +3,10 @@ Predicting customer churn before it happens - because losing customers is expens
 ## Project Overview
 Customer Churn Analysis is a Machine Learning project that predicts whether a customer is likely to churn based on customer information. The project features a Streamlit web application for making predictions and uses SQLite to store prediction records.
 
+Live Demo
+
+*Application:* https://customer-churn-analysis-by-sakshi.streamlit.app
+
 ## Features
 - Predict customer churn using a trained Machine Learning model
 - Interactive Streamlit web application
