@@ -22,7 +22,7 @@ Customer Churn Analysis is a Machine Learning project that predicts whether a cu
 ```
 Customer-Churn-Analysis/
 │── app.py
-│── Untitled2.ipynb
+│── Customer_Churn_Analysis.ipynb
 │── churn_model.pkl
 │── customers.db
 │── requirements.txt
