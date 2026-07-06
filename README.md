@@ -31,28 +31,36 @@ Customer-Churn-Analysis/
 ```
 
 ## Dataset
-The project uses the *WA_Fn-UseC_-Telco-Customer-Churn.csv* dataset to train and evaluate the machine learning model.
+The project uses the dataset:
+- [WA_Fn-UseC_-Telco-Customer-Churn.csv](WA_Fn-UseC_-Telco-Customer-Churn.csv)
+
+This dataset contains customer information used to train and evaluate the machine learning model.
 
 ## Installation
-1. Download or clone this repository.
-2. Install the required dependencies:
+
+1. Install the required dependencies using the provided
+   [requirements.txt](requirements.txt) file:
 
 bash
 pip install -r requirements.txt
 
 
-3. Run the Streamlit application:
+2. Run the application using:
 
 bash
 streamlit run app.py
 
 
+You can view the application code in [app.py](app.py).
+
+
 ## Database
-The project uses *SQLite* (customers.db) to store customer prediction records.
+The application uses *SQLite* for data storage. Prediction records are stored in the
+[customers.db](customers.db) database.
 
 ## Machine Learning Model
-- Framework: Scikit-learn
-- Model File: churn_model.pkl
+The project uses a trained *Logistic Regression* model developed using *Scikit-learn*. The trained model is saved as
+[churn_model.pkl](churn_model.pkl).
 
 ## Output
 The application allows users to:
